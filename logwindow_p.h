@@ -16,6 +16,8 @@ public:
     explicit LogWindow_P(QWidget *parent = 0);
     ~LogWindow_P();
 public slots:
+    void slot_btn_refresh(void);
+
 
 private:
     Ui::LogWindow_P *ui;

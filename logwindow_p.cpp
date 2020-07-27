@@ -7,10 +7,14 @@ LogWindow_P::LogWindow_P(QWidget *parent) :
 {
     ui->setupUi(this);
 
-
+    connect(ui->btn_refresh, SIGNAL(clicked(bool)), this, SLOT(slot_btn_refresh()));
 }
 
 LogWindow_P::~LogWindow_P()
 {
     delete ui;
+}
+void LogWindow_P::slot_btn_refresh()
+{
+
 }

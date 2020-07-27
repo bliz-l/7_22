@@ -68,7 +68,7 @@
     </rect>
    </property>
   </widget>
-  <widget class="QTextEdit" name="textEdit">
+  <widget class="QTextEdit" name="redit_record">
    <property name="geometry">
     <rect>
      <x>150</x>
@@ -81,20 +81,20 @@
   <widget class="QPushButton" name="btn_show">
    <property name="geometry">
     <rect>
-     <x>170</x>
+     <x>150</x>
      <y>250</y>
      <width>80</width>
      <height>31</height>
     </rect>
    </property>
    <property name="text">
-    <string>状态检测</string>
+    <string>当前状态</string>
    </property>
   </widget>
   <widget class="QPushButton" name="btn_exit">
    <property name="geometry">
     <rect>
-     <x>280</x>
+     <x>320</x>
      <y>250</y>
      <width>81</width>
      <height>31</height>
@@ -102,6 +102,19 @@
    </property>
    <property name="text">
     <string>退出</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_get">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>250</y>
+     <width>71</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>获取列表</string>
    </property>
   </widget>
  </widget>
