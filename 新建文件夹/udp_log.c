@@ -102,9 +102,9 @@ int main()
 	//执行 sql 语句 
 		snprintf(sql_str,200,"create table if not exists user_tbl(id integer primary key auto_increment,user text,passwd text,sex int,age int,type int);");
 		
-	//printf("3");
+
 		ret = mysql_query(mysql,sql_str);
-	//printf("4");
+
 		if(ret!=0)
 		{
 			printf("query sql is error.\n");
@@ -130,7 +130,7 @@ int main()
 		
 		memset(sql_str,0,sizeof(sql_str));
 		snprintf(sql_str,200,"select type from user_tbl where user=\"%s\" AND passwd=\"%s\";",buf.log_user,buf.log_passwd);
-		//snprintf(sql_str,200,"select * from reg_tbl;");
+
 		ret = mysql_query(mysql,sql_str);
 		if(ret!=0)
 		{
