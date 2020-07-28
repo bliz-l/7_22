@@ -11,6 +11,7 @@
 #define SEARCH_SERVER_IP "192.168.0.113"
 #define SEARCH_SERVER_PORT 2346
 
+
 namespace Ui {
 class LogWindow;
 }
@@ -51,6 +52,13 @@ public slots:
 private:
     Ui::LogWindow *ui;
     QUdpSocket *udpsock;
+    //定义存储列表QList
+    QList<float> xList;
+    QList<float> yList;
+    //定义timer
+    QTimer *m_timer;
+    float x;
+    int count;
 };
 
 #endif // LOGWINDOW_H

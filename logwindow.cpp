@@ -40,6 +40,7 @@ void LogWindow::slot_btn_get()
 }
 void LogWindow::slot_btn_show()
 {
+    //创建患者窗口，再医生界面也可以打开患者实时状态
     QString patient = "zhangsan";
     QString doctor = "lisi";
     Doctor_Patient_window *doc_pat_win = new Doctor_Patient_window(doctor,patient);
@@ -83,11 +84,11 @@ void LogWindow::slot_ReadyRead()
         QString search_sex;
         //if(result.sex == 0)
         //{
-            search_sex = "female";
+            //search_sex = "female";
        // }
         //else
         //{
-           //search_sex = "male";
+           search_sex = "male";
         //}
         QString search_medic = result.medic;
         QString search_text = result.text;
