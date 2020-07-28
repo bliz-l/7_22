@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>400</width>
+    <width>628</width>
     <height>300</height>
    </rect>
   </property>
@@ -18,8 +18,8 @@
     <rect>
      <x>40</x>
      <y>30</y>
-     <width>291</width>
-     <height>20</height>
+     <width>571</width>
+     <height>41</height>
     </rect>
    </property>
   </widget>
@@ -28,8 +28,8 @@
     <rect>
      <x>40</x>
      <y>80</y>
-     <width>291</width>
-     <height>20</height>
+     <width>571</width>
+     <height>41</height>
     </rect>
    </property>
   </widget>
@@ -38,18 +38,18 @@
     <rect>
      <x>40</x>
      <y>130</y>
-     <width>291</width>
-     <height>20</height>
+     <width>571</width>
+     <height>41</height>
     </rect>
    </property>
   </widget>
   <widget class="QPushButton" name="btn_reg">
    <property name="geometry">
     <rect>
-     <x>150</x>
-     <y>230</y>
-     <width>75</width>
-     <height>23</height>
+     <x>260</x>
+     <y>240</y>
+     <width>121</width>
+     <height>41</height>
     </rect>
    </property>
    <property name="text">
@@ -59,7 +59,7 @@
   <widget class="QRadioButton" name="rbtn_man">
    <property name="geometry">
     <rect>
-     <x>60</x>
+     <x>210</x>
      <y>190</y>
      <width>89</width>
      <height>16</height>
@@ -72,7 +72,7 @@
   <widget class="QRadioButton" name="rbtn_woman">
    <property name="geometry">
     <rect>
-     <x>200</x>
+     <x>390</x>
      <y>190</y>
      <width>89</width>
      <height>16</height>

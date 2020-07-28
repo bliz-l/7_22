@@ -63,7 +63,7 @@ void Widget::slot_btn_log()
         QMessageBox::information(this,"发送信息","发送登录数据失败");
         return;
     }
-    //qDebug()<<user_str;
+
 }
 
 void Widget::slot_ReadyRead_log()
@@ -76,13 +76,17 @@ void Widget::slot_ReadyRead_log()
         //打开登录窗口
         if(result.type == DOCTOR)
         {
-            LogWindow *log_win = new LogWindow;
+            QString user = ui->ledit_user->text();
+            QString type = "doctor";
+            LogWindow *log_win = new LogWindow(user,type);
             log_win->setAttribute(Qt::WA_DeleteOnClose);
             log_win->show();
         }
         else if(result.type == PATIENT)
         {
-            LogWindow_P *log_win_p = new LogWindow_P;
+            QString user = ui->ledit_user->text();
+            QString type = "patient";
+            LogWindow_P *log_win_p = new LogWindow_P(user,type);
             log_win_p->setAttribute(Qt::WA_DeleteOnClose);
             log_win_p->show();
         }

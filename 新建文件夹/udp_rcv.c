@@ -83,7 +83,7 @@ int main()
 		printf("mysqlinit is error\n");
 		goto ERR;
 	}
-	mysql = mysql_real_connect			 (mysql,"127.0.0.1","root","********","yuangong_db",0,NULL,0);
+	mysql = mysql_real_connect			 (mysql,"127.0.0.1","root","123456","yuangong_db",0,NULL,0);
 	if(mysql==NULL)
 	{
 		printf("error\n");

@@ -29,16 +29,19 @@ SOURCES += \
         widget.cpp \
     regwindow.cpp \
     logwindow.cpp \
-    logwindow_p.cpp
+    logwindow_p.cpp \
+    doctor_patient_window.cpp
 
 HEADERS += \
         widget.h \
     regwindow.h \
     logwindow.h \
-    logwindow_p.h
+    logwindow_p.h \
+    doctor_patient_window.h
 
 FORMS += \
         widget.ui \
     regwindow.ui \
     logwindow.ui \
-    logwindow_p.ui
+    logwindow_p.ui \
+    doctor_patient_window.ui

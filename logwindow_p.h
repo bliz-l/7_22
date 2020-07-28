@@ -13,8 +13,9 @@ class LogWindow_P : public QWidget
     Q_OBJECT
 
 public:
-    explicit LogWindow_P(QWidget *parent = 0);
+    explicit LogWindow_P(QString user, QString type,QWidget *parent = 0);
     ~LogWindow_P();
+
 public slots:
     void slot_btn_refresh(void);
 
